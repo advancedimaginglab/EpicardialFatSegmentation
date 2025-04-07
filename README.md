@@ -1,4 +1,7 @@
-# HARTA - Epicardial Fat Segmentation and Quantification Software
+# Epicardial Fat Segmentation
+Code for automatic segmentation of epicardial fat starting from a DICOM set of images.
+Main code has been taken taken from HARTA repo: https://github.com/aforebelo/HARTA.
+
 HARTA is software developed in the context of a master thesis project.
 - Rebelo, A. F. O. (2021). Semi-automatic approach for epicardial fat segmentation and quantification on non-contrast cardiac CT. Dissertation submitted in partial fulfillment of the requirements for the degree of Master of Science in Biomedical Engineering, NOVA University of Lisbon, NOVA Scholl of Science and Technology.
 
@@ -23,23 +26,3 @@ To use HARTA, follow the next steps:
 ```python3 harta.py```
 
 8. Enjoy HARTA!
-
-## Input files
-HARTA only accepts cardiac CT datasets in DICOM format (.dcm). Although it runs on contrast-enhanced images, HARTA is optimized for segmenting non-contrast images.
-If you do not own any cardiac CT in DICOM format, you can use the public [Visual Lab - Cardiac Fat Database](https://visual.ic.uff.br/en/cardio/ctfat/).
-
-## Version
-1.0.0
-
-## License
-HARTA follows [CC-BY-NC-4.0 license](https://github.com/aforebelo/HARTA/blob/main/LICENSE), being freely available for academic purpose or individual research, however it is restricted for commercial use.
-
-## Authors
-Ana Filipa Rebelo
- 
-## Acknowledgments 
-This project was supervised by:
-- Prof. Dr. José Manuel Fonseca, Associate Professor in the Departement of  Electrical Engineering in NOVA Scholl of Science and Technology of NOVA University of Lisbon.
-
-With great insights from:
-- Doctor António Miguel Ferreira, Cardiologist in Hospital Santa Cruz of Western Lisbon Hospital Center.
